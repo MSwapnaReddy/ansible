@@ -1,0 +1,11 @@
+---
+- name: playbook to install mariadb
+  hosts: webserver
+  roles: 
+    - lamp
+      #- httpd
+      #- db
+      #- 
+
+...
+
